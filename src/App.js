@@ -8,7 +8,7 @@ import ParticlesBg from 'particles-bg'
 function App() {
   return (
     <div className="App">
-      <ParticlesBg className='paticles' type="circle" bg={true} />
+      <ParticlesBg className='paticles' type="square" bg={true} />
       <Navigation />
       <Logo />
       <ImageLinkForm />
